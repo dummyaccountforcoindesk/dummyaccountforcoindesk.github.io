@@ -1,0 +1,38 @@
+#form {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.form-field {
+	display: block;
+
+	margin: 2%;
+}
+
+.coin-num {
+	display: inline-block;
+}
+
+.form-field label {
+	display: inline-block;
+}
+
+
+#loader {
+	width: 10%;
+	margin-left: 45%;
+	display: none;
+}
+
+.green {
+	color: #00ff00;
+}
+
+.red {
+	color: #ff0000;
+}
+
+#return {
+	text-align: center;
+	font-size: 2em;
+}
