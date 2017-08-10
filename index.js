@@ -23,7 +23,7 @@ $(document).ready(function() {
 			var request = $.ajax({
 				type: "GET",
 				async: false,
-				url: "http://www.coincap.io/history/1day/" + coinObj["Coin"]
+				url: "https://www.coincap.io/history/1day/" + coinObj["Coin"]
 			})
 
 			request.done(function(data){
@@ -48,7 +48,7 @@ $(document).ready(function() {
 			var front_request = $.ajax({
 				type: "GET",
 				async: false,
-				url: "http://www.coincap.io/front"
+				url: "https://www.coincap.io/front"
 			})
 
 
